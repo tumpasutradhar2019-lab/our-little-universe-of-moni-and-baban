@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Our Little Universe — Soham & Anannya</title>
+<style>
+:root{--ink:#493b43;--muted:#806f78;--rose:#b85f7c;--cream:#fffaf7;--blush:#f7e6e9;--line:#edd5dc}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Georgia,serif;background:radial-gradient(circle at 8% 4%,#f8dfe6 0,transparent 28rem),radial-gradient(circle at 92% 28%,#ffefdf 0,transparent 26rem),var(--cream)}
+.wrap{width:min(1000px,calc(100% - 34px));margin:auto}nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;color:var(--muted);font:13px Arial}.brand{font:19px Georgia;color:var(--rose)}nav a{color:inherit;text-decoration:none;margin-left:15px}
+.hero{min-height:78vh;display:grid;place-items:center;text-align:center;padding:50px 0}.eyebrow{font:11px Arial;letter-spacing:.23em;text-transform:uppercase;color:var(--rose)}h1{font-size:clamp(48px,9vw,92px);font-weight:normal;line-height:.98;margin:19px 0}h1 em{color:var(--rose)}.heart{font-size:34px;color:#d88da2}.lead{font-size:19px;line-height:1.7;color:var(--muted);max-width:620px;margin:0 auto 25px}.date{display:inline-block;padding:11px 18px;border:1px solid var(--line);border-radius:30px;background:#ffffff9c;color:var(--rose);font:13px Arial;letter-spacing:.08em}
+button{border:0;border-radius:30px;padding:13px 22px;cursor:pointer;background:var(--rose);color:white;margin-top:22px;font:14px Arial}.section{padding:65px 0}.head{text-align:center;margin-bottom:30px}h2{font-size:clamp(31px,5vw,44px);font-weight:normal;margin:10px 0}.sub{font:15px/1.7 Arial;color:var(--muted)}
+.gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.photo{margin:0;background:#fffdfb;border:1px solid var(--line);border-radius:20px;padding:10px;box-shadow:0 12px 35px #68404a0d}.photo img{display:block;width:100%;height:auto;max-height:680px;object-fit:contain;border-radius:13px;background:#f7eff0}.photo figcaption{text-align:center;padding:11px 8px 4px;color:var(--muted);font:13px Arial}
+.timeline{max-width:700px;margin:auto;display:grid;gap:14px}.moment{display:grid;grid-template-columns:38px 1fr;gap:13px}.dot{width:34px;height:34px;border-radius:50%;background:var(--blush);display:grid;place-items:center;color:var(--rose)}.card,.letter{background:#fffdfbdc;border:1px solid var(--line);border-radius:22px;padding:23px;box-shadow:0 12px 35px #68404a0b}.card h3{font-size:22px;font-weight:normal;margin:9px 0}.card p{font:15px/1.7 Arial;color:var(--muted);margin:0}.num{font:11px Arial;letter-spacing:.16em;color:var(--rose)}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.letter{max-width:720px;margin:auto;text-align:center;padding:clamp(25px,6vw,50px)}.letter p{text-align:left;white-space:pre-line;font:16px/1.9 Georgia;color:#66545e}.letter-body{display:none}.letter-body.show{display:block}.reasons{display:flex;justify-content:center;flex-wrap:wrap;gap:9px}.reasons button{margin:10px 0 0;background:var(--blush);color:var(--rose);font:13px Arial}.reason-text{min-height:45px;color:var(--muted);font:15px/1.7 Arial;margin-top:20px}
+footer{text-align:center;padding:45px 10px 60px;color:var(--muted);font:13px/1.8 Arial}footer strong{color:var(--rose);font:22px Georgia}
+@media(max-width:650px){.gallery,.grid{grid-template-columns:1fr}.hero{min-height:70vh}nav a{margin-left:8px;font-size:11px}.lead{font-size:17px}}
+</style></head><body><div class="wrap">
+<nav><div class="brand">our little universe ♡</div><div><a href="#gallery">Photos</a><a href="#story">Our story</a><a href="#letter">Letter</a></div></nav>
+<header class="hero"><div><div class="eyebrow">a little corner of the internet, just for us</div><div class="heart">♡</div><h1>Our Little<br><em>Universe</em></h1><p class="lead">Soham & Anannya — a collection of moments, memories, and all the little things worth remembering.</p><div class="date">OUR STORY BEGAN · 1 FEBRUARY 2025</div><br><button onclick="document.querySelector('#gallery').scrollIntoView({behavior:'smooth'})">Step into our memories</button></div></header>
+<section class="section" id="gallery"><div class="head"><div class="eyebrow">captured moments</div><h2>Little memories, kept safe</h2><p class="sub">Your original photographs, displayed as they were — no filters, retouching, or face edits.</p></div><div class="gallery">
+<figure class="photo"><img src="photos/memory-01.png" alt="Memory together 1"><figcaption>A festive little memory</figcaption></figure>
+<figure class="photo"><img src="photos/memory-02.png" alt="Memory together 2"><figcaption>An evening together</figcaption></figure>
+<figure class="photo"><img src="photos/memory-03.png" alt="Memory together 3"><figcaption>A quiet moment beneath the lights</figcaption></figure>
+<figure class="photo"><img src="photos/memory-04.png" alt="Memory together 4"><figcaption>A night to remember</figcaption></figure>
+<figure class="photo"><img src="photos/memory-05.png" alt="Memory together 5"><figcaption>One more moment to keep</figcaption></figure>
+</div></section>
+<section class="section" id="story"><div class="head"><div class="eyebrow">since 01.02.2025</div><h2>A story still being written</h2><p class="sub">Not every day has to be perfect for a memory to matter.</p></div><div class="timeline">
+<div class="moment"><div class="dot">♡</div><div class="card"><div class="num">1 FEBRUARY 2025</div><h3>The beginning of us</h3><p>The date that became part of our story. A beginning we can look back on with care.</p></div></div>
+<div class="moment"><div class="dot">✿</div><div class="card"><div class="num">THE LITTLE THINGS</div><h3>Our everyday memories</h3><p>The conversations, jokes, shared interests, and ordinary moments that slowly became special.</p></div></div>
+<div class="moment"><div class="dot">✧</div><div class="card"><div class="num">WHAT COMES NEXT</div><h3>Still learning, still growing</h3><p>We won't get everything right every time. We can keep listening, communicating, and showing care through our actions.</p></div></div>
+</div></section>
+<section class="section"><div class="head"><div class="eyebrow">little reminders</div><h2>Things worth remembering</h2></div><div class="grid">
+<div class="card"><div class="num">01</div><h3>Your feelings matter</h3><p>You deserve to be heard without having to repeat yourself again and again.</p></div>
+<div class="card"><div class="num">02</div><h3>Your interests matter</h3><p>The things you love sharing deserve my attention, too.</p></div>
+<div class="card"><div class="num">03</div><h3>Small efforts count</h3><p>Care is not only in big gestures; it is in the little things we remember and do.</p></div>
+<div class="card"><div class="num">04</div><h3>We can keep learning</h3><p>We can disagree and still try to understand each other with patience and respect.</p></div></div></section>
+<section class="section"><div class="head"><div class="eyebrow">a tiny interactive note</div><h2>Open a little reminder</h2></div><div class="letter"><div style="font-size:38px">💌</div><p class="sub" style="text-align:center">Choose a note whenever you need one.</p><div class="reasons"><button onclick="reason(0)">A difficult day</button><button onclick="reason(1)">A little smile</button><button onclick="reason(2)">A reminder</button></div><div class="reason-text" id="reasonText">You don't have to feel okay every moment. Your feelings deserve space.</div></div></section>
+<section class="section" id="letter"><div class="head"><div class="eyebrow">from Soham</div><h2>A letter for Anannya</h2><p class="sub">A note, with no pressure to reply immediately.</p></div><div class="letter"><div style="font-size:40px">✉</div><h3 style="font-weight:normal;font-size:25px">For you, Anannya</h3><button id="open" onclick="toggle()">Open your letter</button><div class="letter-body" id="letterBody"><p>Anannya,
+
+I know things have felt difficult lately. I don't want to brush past the moments when I've made you feel unheard or unimportant.
+
+Sometimes I get caught up in my own routine and forget that the little things you share with me are ways of letting me into your world. I want to do better at noticing them — not just saying they matter, but showing you through my actions.
+
+I appreciate your thoughts, your interests, your kindness, and all the ordinary conversations that make our days feel connected.
+
+I don't expect one letter to fix everything, and I don't want you to feel pressured to be okay straight away. I just wanted to make something that says: I hear you, I care about how you feel, and I'm willing to keep learning how to love you more thoughtfully.
+
+With care,
+Soham ♡</p></div></div></section>
+<footer><strong>♡</strong><br>Our Little Universe<br>Soham & Anannya · Since 1 February 2025</footer>
+</div><script>
+const notes=["You don't have to feel okay every moment. Your feelings deserve space, and you deserve kindness.","I hope something small makes you smile today. Your presence makes ordinary moments memorable.","Your thoughts, interests, and feelings matter. You deserve to feel heard and respected."];
+function reason(i){document.getElementById('reasonText').textContent=notes[i]}
+function toggle(){const x=document.getElementById('letterBody');x.classList.toggle('show');document.getElementById('open').textContent=x.classList.contains('show')?'Close your letter':'Open your letter'}
+</script></body></html>
